@@ -1,0 +1,120 @@
+body{
+    margin:0;
+    padding: 0;
+}
+
+.breadcrumb{
+    padding: 0.25rem;
+}
+
+.breadcrumb h2{
+    color: blueviolet;
+    font-size: 24px;
+}
+
+.breadcrumb ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: brown;
+    padding: 0;
+    margin: 0;
+}
+.breadcrumb li{
+    display: inline-block;    
+    margin: 0;
+}
+
+.breadcrumb li:not(:last-child)::after{
+    content: "—›";
+    margin: 0.5rem;
+}
+
+.breadcrumb-one li{
+    padding: 2px;
+    margin: 2px;
+}
+
+.breadcrumb-two li{
+    background-color: rgb(51, 176, 51);
+    padding: 10px;
+    margin: 0;
+    box-shadow: 0 4px gray;
+    border-radius: 8px;
+}
+
+.breadcrumb-three li{
+    background-color: orange;
+    padding: 10px;
+    margin: 2px;
+}
+
+.breadcrumb-four li{
+    background-color: rgb(9, 182, 251);
+    padding: 10px;
+    margin: 5px;
+    transform: skew(-15deg);
+}
+
+.breadcrumb-five li{
+    background-color: rgb(212, 126, 126);
+    padding: 10px;
+    margin: 5px;
+    transform: skew(-18deg);
+    border-radius: 10px;
+}
+
+.breadcrumb-six li{
+    background-color: rgb(251, 9, 243);
+    padding: 10px;
+    margin: 5px;
+    transform: skew(-30deg);
+    border-radius: 20px;
+}
+
+
+.breadcrumb-seven li{
+    background-color: rgb(183, 178, 178);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+
+
+.breadcrumb-eight li{
+    background-color: rgb(74, 9, 251);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 30%;
+    > a {
+        color: aliceblue;
+    }
+}
+
+
+.breadcrumb-nine li{
+    background-color: rgb(195, 131, 237);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+
+    > a:hover{
+        color: white;
+        background-color: transparent;
+        text-decoration: wavy;
+    }
+}
+
+
+.breadcrumb-ten li{
+    background-color: rgb(212, 169, 193);
+    padding: 10px;
+    margin: 5px;
+    box-shadow: 5px 5px grey;
+    border-radius: 20px;
+    cursor: pointer;
+    > a:hover {
+        color: black;
+        background-color: transparent;
+    }
+}
